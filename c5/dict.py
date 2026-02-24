@@ -10,3 +10,4 @@ print(marks)
 
 print(marks.get("Harry")) #returns none
 print(marks["Harry"]) #returns error
+print(marks.get('Sita'))
