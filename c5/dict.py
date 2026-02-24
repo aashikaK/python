@@ -1,3 +1,5 @@
+d={} #empty dictionary
+
 marks={"Sita":100,
        "Mina":22,
        "Aashish":78
