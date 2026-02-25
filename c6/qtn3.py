@@ -9,6 +9,6 @@ spam=spam.lower()
 # OR
 
 if("make a lot of money" in spam or "buy now" in spam  or "suscribe this" in spam  or "click this" in spam ):
-    print("WARNING: It is spam.")
+    print("WARNING: This comment is spam.")
 else:
-    print("It is not spam.")
+    print("This comment is not spam.")
