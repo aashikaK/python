@@ -10,6 +10,6 @@ tPercent=((marks1+marks2+marks3)/300)*100
 # m3Per=(marks3/100)*100
 
 if(tPercent>=40 and marks1>=33 and marks2>=33 and marks3>=33):
-    print("You are pass.")
+    print("You have passed.Total Percentage-> ", tPercent)
 else:
-    print("You have failed.")
+    print("You have failed.Total Percentage-> ",tPercent)
