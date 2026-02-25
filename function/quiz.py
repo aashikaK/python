@@ -1,3 +1,3 @@
-def greet(user):
+def greet(user): #passing parameter in 
     print(f"Hello {user}!")
-greet("Aashika")
+greet("Aashika") #function call 
