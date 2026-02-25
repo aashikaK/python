@@ -1,0 +1,17 @@
+a=int(input("Enter your age: "))
+
+if(a>18):
+    print("You are an adult.")
+
+elif(a<0):
+    print("Age can't be negative.Enter correct age.")
+    int(input("Enter correct age: "))
+
+elif(a==0):
+    print("You entered an ivalid age..")
+    int(input("Enter correct age: "))
+
+else:
+    print("You are not an adult.")
+
+print("The end.")
