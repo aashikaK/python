@@ -11,5 +11,5 @@ for i in range(1,n+1):
         print("")
     else:
         space=(n-2)*" "
-        print("*",space,"*",end="")
+        print("*"+space+"*",end="")
         print("")
