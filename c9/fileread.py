@@ -24,10 +24,10 @@ print(line5=="") #there is no line so it gives empty string on printing print(li
 
 # we can also use while loop like
 
-line=f.readline()
-while(line!=""):
-    print(line)
-    line=f.readline()
+# line=f.readline()
+# while(line!=""):
+#     print(line)
+#     line=f.readline()
 
 f.close()
 
