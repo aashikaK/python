@@ -1,5 +1,6 @@
 n=int(input("Enter the value of n: "))
-print(f"The sum of n({n}) natural number is:{sum(n)}")
+sum=sum(n)
+print(f"The sum of n({n}) natural number is:{sum}")
 
 def sum(n):
     if(n<=0):
