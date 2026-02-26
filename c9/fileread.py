@@ -1,4 +1,4 @@
 
-f=open("file.txt")
+f=open("c9/file.txt")
 data=f.read()
 print(data)
