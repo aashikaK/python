@@ -20,10 +20,12 @@ line4=f.readline()
 print(line4,type(line4))
 
 line5=f.readline()
-print(line5,type(line5)) #there is no line so it gives empty string we can also use while loop like
+print(line5=="") #there is no line so it gives empty string on printing print(line5,type(line5))
+
+# we can also use while loop like
 
 line=f.readline()
-while(f.readline()!=""):
+while(line!=""):
     print(line,type(line))
     line=f.readline()
 
