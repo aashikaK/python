@@ -26,7 +26,7 @@ print(line5=="") #there is no line so it gives empty string on printing print(li
 
 line=f.readline()
 while(line!=""):
-    print(line,type(line))
+    print(line)
     line=f.readline()
 
 f.close()
