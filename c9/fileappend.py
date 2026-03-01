@@ -4,6 +4,6 @@ file=open("c9/myFile.txt", "a")
 file.write(str)
 print('Successfully carried out append operation..')
 
-data=file.readlines()
-print(data)
-file.close()
+# data=file.readlines()   for reading and appending we need to open on a+ mode no just a mode
+# print(data)
+# file.close()
