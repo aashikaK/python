@@ -1,5 +1,6 @@
-with open("c9/donkey.txt","w+") as f:
+with open("c9/donkey.txt","r") as f:
     text=f.read()
-    for "donkey" in text.lower():
-       text= text.replace("donkey","#####")
+text= text.replace("donkey","#####")
+    
+with open("c9/donkey.txt","w") as f:
     f.write(text)
