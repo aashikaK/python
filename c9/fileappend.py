@@ -5,4 +5,5 @@ file.write(str)
 print('Successfully carried out append operation..')
 file.close()
 
-# if we write again in the file that already has text it "w" will replace previous content with the new content
+data=file.read()
+print(data)
