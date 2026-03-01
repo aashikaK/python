@@ -4,3 +4,4 @@ text= text.replace("donkey","#####")
     
 with open("c9/donkey.txt","w") as f:
     f.write(text)
+print("Successfully replaced 'donkey' with '#####'")
