@@ -4,7 +4,6 @@ file=open("c9/myFile.txt", "a")
 file.write(str)
 print('Successfully carried out append operation..')
 
-
-data=file.read()
+data=file.readlines()
 print(data)
 file.close()
