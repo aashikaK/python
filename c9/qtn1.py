@@ -1,3 +1,6 @@
 f=open('c9/poem.txt')
 str=f.read()
-print(str.find("twinkle"))
+if("twinkle" in str):
+    print("There is 'twinkle' in the poem file")
+
+f.close()
