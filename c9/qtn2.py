@@ -10,6 +10,7 @@ def game():
             hiscore=int(hiscore)
         else:
             hiscore=0
+    print(f'Previous highscore: {hiscore}')
     print(f'Your score: {score}')
     if(score>hiscore):
         with open("c9/hiscore.txt","w") as f:
