@@ -5,6 +5,10 @@ def game():
     # fetch the highscore
     with open("c9/hiscore.txt") as f:
         hiscore=f.read()
+        if(hiscore!=""):
+            hiscore=int(hiscore)
+        else:
+            hiscore=0
     score=random.randint(1,62)
     print(f'Your score: {score}')
     return score
