@@ -4,6 +4,6 @@ with open("c9/this_copy.txt") as f:
     data2=f.read()
 if(data1==data2):
     print("The conttent of 'this.txt' matches with 'this_copy.txt'")
-    break
+    
 else:
       print("The conttent of 'this.txt' matches with 'this_copy.txt'")
