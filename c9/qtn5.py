@@ -1,5 +1,5 @@
 words=['Donkey','Bad' ,'Dirty' ]
-words= words.lower()
+
 
 
 with open("c9/cencored.txt","r") as f:
