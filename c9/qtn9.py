@@ -6,4 +6,4 @@ if(data1==data2):
     print("The conttent of 'this.txt' matches with 'this_copy.txt'")
     
 else:
-      print("The conttent of 'this.txt' matches with 'this_copy.txt'")
+      print("The conttent of 'this.txt' does not matche with 'this_copy.txt'")
