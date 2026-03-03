@@ -7,3 +7,6 @@ if(data1==data2):
     
 else:
       print("The conttent of 'this.txt' does not matche with 'this_copy.txt'")
+
+
+# simply do f.write('') for the file you want to clear contents of then it will complete qtn10
