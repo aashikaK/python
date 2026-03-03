@@ -1,0 +1,2 @@
+this is file 'to_rename.txt' we are going to rename this to 'renamed.txt' so if u 
+see the name has already been changed then you can guess that the code had been run successfully
