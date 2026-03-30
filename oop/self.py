@@ -11,3 +11,5 @@ s1.set_name("Aashika")
 # Student.set_name(s1, "Aashika") python does this internally
 s2.set_name("Ram")
 #Student.set_name(s2, "Ram") python does this internally
+s1.show()
+s2.show()
