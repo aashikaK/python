@@ -6,7 +6,7 @@ class Student:
         print("My name is", self.name)
 
     def __init__(self,name): #dunder method automatically called
-        # self.name=name
+        # self.name=name no need this bcz we r noy using object but local variable and You are NOT storing anything inside the object
         print(f"This is constructor called each time a object is created.Name={name}")
 
 s1 = Student("Aashika")
