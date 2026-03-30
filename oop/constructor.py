@@ -5,11 +5,12 @@ class Student:
     def show(self):
         print("My name is", self.name)
 
-    def __init__(self): #dunder method automatically called
-        print("This is constructor called each time a object is created.")
+    def __init__(self,name): #dunder method automatically called
+        # self.name=name
+        print(f"This is constructor called each time a object is created.Name={name}")
 
-s1 = Student()
-s2 = Student()
+s1 = Student("Aashika")
+s2 = Student("Ram")
 s1.set_name("Aashika")
 # Student.set_name(s1, "Aashika") python does this internally
 s2.set_name("Ram")
