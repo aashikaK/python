@@ -10,7 +10,7 @@ class Calculator:
         print("Cube= ",n*n*n)
     def sqRt(self):
         n=self.num
-        print("Square Root= ",round(n**(1/2),2) #n^1/2
+        print("Square Root= ",round(n**(1/2),2)) #n^1/2
 
 c= Calculator(64)
 c.square()
