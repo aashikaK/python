@@ -14,8 +14,9 @@ class Calculator:
     @staticmethod
     def greet():
         print("Hello user")
-        
+
 c= Calculator(64)
 c.square()
 c.cube()
 c.sqRt()
+c.greet()
