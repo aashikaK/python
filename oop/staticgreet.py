@@ -16,7 +16,7 @@ class Calculator:
         print("Hello user")
 
 c= Calculator(64)
+c.greet()
 c.square()
 c.cube()
 c.sqRt()
-c.greet()
