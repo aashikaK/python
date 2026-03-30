@@ -4,6 +4,11 @@ class Student:
 
     def show(self):
         print("My name is", self.name)
+    
+    @staticmethod
+    # doesnot need self, called using class name, no need obj creation
+    def print():
+        print('This is static method belonging to class')
 
 s1 = Student()
 s2 = Student()
@@ -14,4 +19,5 @@ s2.set_name("Ram")
 s1.show()
 s2.show()
 
+Student.print()
 #python does Student.show(s1/s2)
