@@ -19,4 +19,3 @@ class Train:
 t= Train(2)
 t.book('Kathmandu','Chitwan')
 t.getStatus()
-t.getFare(2,'Kathmandu','Chitwan')
