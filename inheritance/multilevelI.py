@@ -5,7 +5,7 @@ class Living:
 
 class Animal(Living):
     def sound(self,name,sound):
-        print(f"{name} makes {self.sound} sound.")
+        print(f"{name} makes {sound} sound.")
 
 class Dog(Animal):
     pass
