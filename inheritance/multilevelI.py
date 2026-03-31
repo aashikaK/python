@@ -11,6 +11,6 @@ class Dog(Animal):
     pass
 
 d=Dog()
-d.sound('dog','Barks')
+d.sound('Dog','barking')
 a=Animal()
 a.does()
