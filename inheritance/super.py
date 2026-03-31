@@ -6,5 +6,6 @@ class Animal:
 class Dog(Animal):
     def __init__(self, sound):
         super().__init__(sound)
+        print(f"Dog {sound}")
 d=Dog("barks")
 d.makes()
