@@ -1,14 +1,14 @@
 class Animal:
-    def sound(self,name,sound):
-        print(f"{name} makes {sound} sound.")
+    def sound(self,name,sounds):
+        print(f"{name} makes {sounds} sound.")
 
 class Bird:
     def sound(self,name,sound):
-        print(f"{name} makes {self.sound} sound.")
+        print(f"{name} makes {self.sounds} sound.")
 
 class LivingBeing(Animal,Bird):
     def sound(self, name, sound):
-        print(f"{name} makes {self.sound} sound.")
+        print(f"{name} makes {self.sounds} sound.")
 
 l=LivingBeing()
 l.sound("crow",'kawkaw')
