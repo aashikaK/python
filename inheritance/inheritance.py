@@ -6,7 +6,7 @@ class Prog(Employee):
     def info(self):
         print(f"Employee:{self.emp_no} of company: {self.company}")
 
-p=Prog()
-p.info()
 e=Employee()
 e.info("Tech")
+p=Prog()
+p.info()
