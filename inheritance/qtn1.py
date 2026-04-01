@@ -13,5 +13,5 @@ class ThreeDVector(TwoDVector):
     def show(self):
         print(f"The value of i,j and k are:{self.i},{self.j}and {self.k}")
 
-a=TwoDVector(1,2,3)
+a=TwoDVector(1,2)
 b=ThreeDVector(3,4,5)    
