@@ -15,3 +15,5 @@ class ThreeDVector(TwoDVector):
 
 a=TwoDVector(1,2)
 b=ThreeDVector(3,4,5)    
+a.show()
+b.show()
