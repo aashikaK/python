@@ -3,7 +3,7 @@ class Info:
 
     @property
     def name(self):
-        return f"{self.fname,self.lname}
+        return f"{self.fname,self.lname}"
     
     @name.setter
     def name(self,value):
