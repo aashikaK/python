@@ -6,4 +6,4 @@ class Employee:
         return (self.salary+(self.salary*(self.increment/100)))
 
 e=Employee()
-print(f"Salary after increment: {e.salaryAfterIncrement()}")
+print(f"Salary after increment: {e.salaryAfterIncrement}")
