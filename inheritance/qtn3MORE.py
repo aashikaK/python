@@ -12,4 +12,4 @@ class Employee:
 e=Employee()
 new_salary = e.salaryAfterIncrement
 e.salaryAfterIncrement=new_salary
-print(f"Increment: {e.increment}")
+print(f"Increment:{round(e.increment,0)}")
