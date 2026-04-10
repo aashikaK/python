@@ -12,7 +12,7 @@ class Vector:
         result= self.x*other.x +self.y*other.y+self.z*other.z
         return result
     def __str__(self):
-        return f"Vector({self.x}i,{self.y}j,{self.z}k)"
+        return f"Vector({self.x}i + {self.y}j + {self.z}k)"
 
 v1=Vector(1,2,3)
 v2=Vector(2,4,5)
