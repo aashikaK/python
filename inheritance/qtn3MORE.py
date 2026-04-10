@@ -4,6 +4,11 @@ class Employee:
     @property
     def salaryAfterIncrement(self):
         return (self.salary+(self.salary*(self.increment/100)))
+    
+    @salaryAfterIncrement.setter
+    def salaryAfterIncrement(self,salary):
+        self.increment=((salary/self.salary)-1)*100
 
 e=Employee()
-print(f"Salary after increment: {e.salaryAfterIncrement}")
+e.salaryAfterIncrement=280
+print(f"Increment: {e.Increment}")
