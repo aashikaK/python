@@ -5,6 +5,9 @@ class Complex:
     
     def __add__(self, other):
         return Complex(self.r+other.r, self.i+other.r)
+    
+    def __str__(self):
+        return f"{self.r} +{self.i}i"
 
 c1=Complex(1,2)
 c2=Complex(4,5)
