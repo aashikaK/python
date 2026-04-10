@@ -4,7 +4,7 @@ class Complex:
         self.i=i
     
     def __add__(self, other):
-        return Complex(self.r+other.r, self.i+other.r)
+        return Complex(self.r+other.r, self.i+other.i)
     
     def __str__(self):
         return f"{self.r} +{self.i}i"
