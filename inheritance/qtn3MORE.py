@@ -11,4 +11,4 @@ class Employee:
 
 e=Employee()
 e.salaryAfterIncrement=280
-print(f"Increment: {e.Increment}")
+print(f"Increment: {e.increment}")
