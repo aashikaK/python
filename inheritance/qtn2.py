@@ -5,7 +5,8 @@ class Pets(Animals):
     pass
 
 class Dog(Pets):
-    def bark(self):
+    @staticmethod
+    def bark():
         print("Dog barks...")
 
 d=Dog()
