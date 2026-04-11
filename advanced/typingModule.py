@@ -7,3 +7,12 @@ student: Dict[str, int] = {
 }
 
 point: Tuple[int, int] = (10, 20)
+
+def find_user(name: Optional[str]) -> None:
+    print(name)
+
+def process(data: Union[int, str]) -> None:
+    print(data)
+
+def square_all(nums: List[int]) -> List[int]:
+    return [n * n for n in nums]
