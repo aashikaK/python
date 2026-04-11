@@ -1,2 +1,4 @@
-if(n:=len([2,4,5,6]))>3:
+if(n:=len([2,4,5]))>3:
     print('The length of list is greater than three..')
+else:
+    print("The length of the list is lesser than or  equal to three")
