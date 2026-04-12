@@ -11,3 +11,11 @@ match day:
 match (1, 2):
     case (x, y):
         print(f"x={x}, y={y}")
+
+# Matching with Conditions (Guards)
+age=20
+match age:
+    case a if a<18:
+        print("Minor")
+    case a if a>=18:
+        print("Adult")
