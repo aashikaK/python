@@ -15,7 +15,7 @@ match (1, 2):
 # Matching with Conditions (Guards)
 age=20
 match age:
-    case a if a<18:
+    case a if a<18: #a is a capture variable,It simply means:“Take the value of age and store it in a”
         print("Minor")
     case a if a>=18:
         print("Adult")
@@ -33,7 +33,7 @@ match data:
 person = {"name": "Alice", "age": 25}
 
 match person:
-    case {"name": name, "age": age}:
+    case {"name": name, "age": age}: #It is doing pattern matching + capturing values
         print(name, age)
 
 # Default Case (_)
