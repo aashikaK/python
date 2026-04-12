@@ -28,3 +28,16 @@ match data:
         print("Exact match")
     case [1, *rest]:
         print("Starts with 1, rest:", rest)
+
+# Matching Dictionaries
+person = {"name": "Alice", "age": 25}
+
+match person:
+    case {"name": name, "age": age}:
+        print(name, age)
+
+# Default Case (_)
+value =0
+match value:
+    case _:
+        print("Anything else")
