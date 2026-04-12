@@ -1,4 +1,4 @@
-day="Sat"
+day="sat"
 
 match day:
     case"mon"|"tues"|"wed"| "thu" | "fri":
