@@ -19,3 +19,12 @@ match age:
         print("Minor")
     case a if a>=18:
         print("Adult")
+
+# Matching Lists / Tuples
+data = [1, 2, 3]
+
+match data:
+    case [1, 2, 3]:
+        print("Exact match")
+    case [1, *rest]:
+        print("Starts with 1, rest:", rest)
