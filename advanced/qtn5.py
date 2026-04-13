@@ -8,8 +8,8 @@ else:
     print(multiplication)
 
     try:
-        with open("advanced/table.txt","w") as f:
-            f.write(f"Multiplications of {n}: {multiplication}")
+        with open("advanced/table.txt","a") as f:
+            f.write(f"Multiplications of {n}: {multiplication}\n")
             print("Printed successfully in 'table.txt'.")
 
     except FileNotFoundError:
