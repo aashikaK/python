@@ -9,7 +9,7 @@ else:
 
     try:
         with open("advanced/table.txt","a") as f:
-            f.write(f"Multiplications of {n}: {multiplication}\n")
+            f.write(f"\nMultiplications of {n}: {multiplication}")
             print("Printed successfully in 'table.txt'.")
 
     except FileNotFoundError:
