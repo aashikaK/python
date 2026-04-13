@@ -12,3 +12,10 @@ except ValueError:
 
 else:
     print("Everything worked fine")
+
+# Why use else?
+
+# To separate:
+
+# risky code → inside try
+# safe code (only if success) → inside else
