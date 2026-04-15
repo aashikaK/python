@@ -1,6 +1,5 @@
 list=["a","b","c"]
 
-
 finalList= '::'.join(list)
 print(finalList)
 
