@@ -1,4 +1,4 @@
-list=["a","b","c"]
+list1=["a","b","c"]
 
 finalList= '::'.join(list)
 print(finalList)
