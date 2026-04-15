@@ -2,5 +2,5 @@
 # syntax: filter(function, iterable)
 
 list=[1,2,3,4,5,6]
-even=list(filter(lambda x:x%2==0,list))
-print(even)
+even=filter(lambda x:x%2==0,list)
+print(list(even))
