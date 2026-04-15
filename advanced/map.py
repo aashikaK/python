@@ -17,3 +17,8 @@ names = ["ram", "shyam", "hari"]
 
 result = list(map(lambda x: x.upper(), names))
 print(result)
+
+# Use when:
+
+# Same operation on all elements
+# Simple transformation
