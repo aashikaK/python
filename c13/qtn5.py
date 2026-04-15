@@ -1,7 +1,13 @@
+from functools import reduce
+
 n = [3, 45, 6778, 1, 23, 45, 988, 67]
 
-max_val = max(n)  # just to help logic inside filter
+def max(a,b):
+    if(a>b):
+        return a
+    else:
+        return b
 
-result = filter(lambda x: x == max_val, n)
+result = reduce(max, n)
 
-print(list(result))
+print(result)
