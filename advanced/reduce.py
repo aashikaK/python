@@ -1,0 +1,1 @@
+# Take all items and combine them into a single value
