@@ -15,7 +15,7 @@ class Student(Person):
     def show_info(self):
         print("Name:", self.name)
         print("Course:", self.course)
-        print("Status: I have studied only inheritance in OOP")
+        print("Status: I have studied inheritance")
 
 
 s1 = Student("Aashika", "Computer Science")
